@@ -29,7 +29,7 @@ class AdvertSeeder extends Seeder
             for($j=1; $j<=rand(1,3); $j++){
                 Banner::create([
                     'advert_id' => $id,
-                    'image' => '/storage/uploads/1634580974_docker-cloud-twitter-card.png'
+                    'image' => '/storage/uploads/seeder_banner.png'
                 ]);
             }
         }

@@ -6,9 +6,9 @@
 ### Make sure that php composer and node.js are already installed
 
 ### Install dependencies
-- **Laravel dependencies**: 
+- ####Laravel dependencies: 
   - _composer install_
-- **Node dependencies**: 
+- ####Node dependencies: 
   - _npm install_
 
 ### Set Environment variables
@@ -22,6 +22,12 @@
 
 ### Run Migration
 - _docker-compose exec app php artisan migrate_
+
+### Testing
+- #### Run migration for test database
+  - _docker-compose exec app php artisan migrate --database=sqlite_ 
+- #### Run test
+  - _docker-compose exec app ./vendor/bin/pest_
 
 ### Run Seeder
 - _docker-compose exec app php artisan db:seed --class=AdvertSeeder_
