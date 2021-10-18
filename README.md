@@ -1,4 +1,4 @@
-#<p align="center">ESKIMI SSP</p>
+#ESKIMI SSP
 
 
 ## Commands
