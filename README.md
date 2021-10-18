@@ -1,4 +1,4 @@
-#ESKIMI SSP
+# ESKIMI SSP
 
 
 ## Commands
@@ -6,9 +6,9 @@
 ### Make sure that php composer and node.js are already installed
 
 ### Install dependencies
-- ####Laravel dependencies: 
+- #### Laravel dependencies: 
   - _composer install_
-- ####Node dependencies: 
+- #### Node dependencies: 
   - _npm install_
 
 ### Set Environment variables
