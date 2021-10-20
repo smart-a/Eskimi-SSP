@@ -1,7 +1,7 @@
 # ESKIMI SSP
 
 
-## Commands
+## Instructions/ Commands
 
 ### Make sure that php composer and node.js are already installed
 
